@@ -1,0 +1,22 @@
+.navbar {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    box-shadow: 0px 5px 18px #000000;
+    z-index: 2;
+}
+.navButtons {
+    display: flex;
+    margin-right: 10px;
+}
+.Button {
+    margin: 0 10px 0 0 !important;
+    background: none !important;
+}
+.Button:hover{
+    background-color: rgb(255, 174, 0) !important;
+    color: black !important;
+}
