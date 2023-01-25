@@ -2,5 +2,6 @@
 
 To run project:
   
-  cd client
+  cd client 
+  
   npm run dev
