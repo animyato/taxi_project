@@ -1,0 +1,36 @@
+.bookingContainer{
+    z-index: -2;
+    min-height: 700px;
+    width: 100%;
+    background-color: rgb(255, 174, 0) !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bookingTextContainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    word-wrap: break-word;
+    height: 100%;
+    margin: 30px;
+}
+
+.columnInput{
+    display: flex;
+    justify-content: space-around;
+    align-items: strech;
+    margin-bottom: 40px;
+}
+.submitButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cardFooter {
+    width: 100%;
+}
